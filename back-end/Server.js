@@ -18,7 +18,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors(
-    "https://e-commerce-rose-phi-68.vercel.app/"
+    "https://industry-project-eight.vercel.app/"
 ));
 
 app.use("/api/auth", authRouter);
